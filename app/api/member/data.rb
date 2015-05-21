@@ -4,8 +4,7 @@ module Member
 
       desc "List all Doners"
       get do
-        {sooraje: 'Onnu poyeda naari'}
-        # Doner.all
+        Doner.all
       end
 
       desc "Add Doner"
